@@ -1,3 +1,5 @@
 # eComVue
 django and vue eCom app 
-add to heroku
+
+
+[heroku django migrations](https://help.heroku.com/GDQ74SU2/django-migrations) Procfile etc 
