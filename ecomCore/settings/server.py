@@ -12,3 +12,5 @@ DATABASES = {
         'POST': '',
     }
 }
+
+print("Server running ================")

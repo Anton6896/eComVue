@@ -1,9 +1,9 @@
-
 import sys
 from .base import *
 
-RUNNING_DEVSERVER = (len(sys.argv) > 1 and sys.argv[1] == 'runserver')
-if RUNNING_DEVSERVER:
+local_file = "/home/ant/Documents/Vue_app/eComVue/ecomCore/settings/__init__.py"
+
+if __file__ == local_file:
     from .local import *
 else:
     from .server import *

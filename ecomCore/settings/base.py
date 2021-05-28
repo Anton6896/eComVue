@@ -24,7 +24,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 SECRET_KEY = 'django-insecure-t*45ufiux=ha8m#e*0%tl#j)!l_^@7y+7jz0re8*2#7ps!yi78'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
 
 ALLOWED_HOSTS = ['ecomvueant.herokuapp.com', '127.0.0.1']
 
@@ -40,12 +39,22 @@ INSTALLED_APPS = [
 
     # my apps
     'profile_user',
+    'rest_framework.authtoken',
+    'djoser',
+    'corsheaders'
+
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://127.0.0.1:8000",
+    "https://ecomvueant.herokuapp.com",
 
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
