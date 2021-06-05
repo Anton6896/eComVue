@@ -1,6 +1,8 @@
 from django.shortcuts import render
 
 
-# Create your views here.
 def profile_home_view(request):
+    """
+    this is the hello page of Django server
+    """
     return render(request, 'profile/home.html')

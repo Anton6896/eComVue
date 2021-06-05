@@ -1,5 +1,6 @@
 
 # must be Debug = False but for static files i live it like this
+# todo mode static data to s3
 DEBUG = True
 
 DATABASES = {
