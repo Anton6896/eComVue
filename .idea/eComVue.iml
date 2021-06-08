@@ -18,9 +18,10 @@
       <excludeFolder url="file://$MODULE_DIR$/venv" />
       <excludeFolder url="file://$MODULE_DIR$/env" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.8 (eComVue)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.9 (eComVue)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="djakets_vue" />
+    <orderEntry type="module" module-name="Vue_django_-vuewPart-" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

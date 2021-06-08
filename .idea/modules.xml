@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Vue_django_-vuewPart-/.idea/Vue_django_-vuewPart-.iml" filepath="$PROJECT_DIR$/../Vue_django_-vuewPart-/.idea/Vue_django_-vuewPart-.iml" />
       <module fileurl="file://$PROJECT_DIR$/../djakets_vue/.idea/djakets_vue.iml" filepath="$PROJECT_DIR$/../djakets_vue/.idea/djakets_vue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/eComVue.iml" filepath="$PROJECT_DIR$/.idea/eComVue.iml" />
     </modules>
